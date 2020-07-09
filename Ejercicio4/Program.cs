@@ -51,6 +51,9 @@ namespace Ejercicio4
                     Dia = "7";
                     nds = int.Parse(Dia);
                     break;
+                default:
+                    Console.WriteLine("El dia de la semana escrito '{0}' no es válido",Dia);
+                    break;
             }
 
             Semana ds = (Semana)nds;
